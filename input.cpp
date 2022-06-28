@@ -3,12 +3,12 @@ using namespace std;
 int main()
 
 {
-	int numberOfLanguages;
+	int L;
 	cout << "Hello reader.\n"
 	     << "welcome to C++.\n";
 	cout << "How many programming languages have you used?";
-	cin >> numberOfLanguages;
-	if (numberOfLanguages < 1)
+	cin >> L;
+	if (L < 1)
 		cout << "You might prefer a different book by the same author.";
 	else 
 		cout << "Enjoy the book.";
