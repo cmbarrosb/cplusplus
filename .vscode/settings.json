@@ -22,10 +22,12 @@
   ],
   "C_Cpp_Runner.excludeSearch": [
     "**/build",
+
     "**/build/**",
     "**/.*",
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+"code-runner.runInTerminal": true
 }
