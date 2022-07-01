@@ -1,29 +1,18 @@
 {
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "C/C++ Runner: Debug Session",
-            "type": "lldb",
-            "request": "launch",
-            "args": [],
-            "stopAtEntry": true,
-            "externalConsole": false,
-            "cwd": "/Users/carlos/Documents/Github/cplusplus",
-            "program": "/Users/carlos/Documents/Github/cplusplus/build/Debug/outDebug",
-            "MIMode": "gdb"
-        },
-        {
-            "name": "(lldb) Launch",
+            "name": "C/C++: clang++-10",
             "type": "cppdbg",
             "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb"
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++-10 build active file"
         }
     ]
 }
